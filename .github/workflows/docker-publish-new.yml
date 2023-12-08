@@ -23,6 +23,11 @@ env:
 
 
 jobs:
+  integration:
+    uses: ramkrishjobs1/03_05_integration/.github/workflows/python-app.yml@main
+    permissions:
+      contents: read
+
   build:
 
     runs-on: ubuntu-latest
