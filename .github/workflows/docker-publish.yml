@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: automate6500/03_05_integration/.github/workflows/python-app.yml@main
+    uses: ramkrishjobs1/03_05_integration/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       
